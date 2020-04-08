@@ -55,6 +55,12 @@ body {
     font-weight: 400;
 }
 
+h3 {
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 1rem;
+}
+
 .logo-rr{
 	width: 4rem;
 }
@@ -82,36 +88,6 @@ body {
 .nav-link-rr:hover {
     color: rgba(34,58,36,0.95);
 	text-decoration: none;
-}
-
-.band-hero-rr {
-	height: 30rem;
-	color: #E2F8F0;
-	background: linear-gradient(0.13turn,rgba(2,10,27,1),rgba(2,17,48,0.75),rgba(2,10,27,1)), url('../img/index-hero.jpg');
-	background-size: cover;
-	background-position: center;
-}
-
-.hero-container-rr {
-	padding-top: 5rem;
-}
-
-.hero-h1-rr {
-    font-size: 3rem;
-    font-weight: 800;
-    top: auto;
-	font-variant-caps: petite-caps; 
-    letter-spacing: 0.1rem;
-}
-
-@media screen and (min-width: 385px){
-	.band-hero-rr {
-	height: 36rem;
-	}
-	
-	.hero-h1-rr {
-    font-size: 3.2rem;
-	}
 }
 
 .btn {
@@ -158,49 +134,23 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(34, 213, 126, 0.5);
 }
 
-.mission-rr {
-	padding: 125px;
-	color: #E2F8F0;
-	background-color: #22D57E;
-	align-items: center;
-	justify-content: center;
-}
-
-.mission-p-rr {
-	font-weight: 50;
-}
-
-.quote-rr {
-	
-}
-
-.band-quote-rr {
-	padding: 50px;
-	color: #E2F8F0;
-	background: linear-gradient(0.13turn,rgba(2,10,27,1),rgba(2,17,48,0.75),rgba(2,10,27,1)), url('../img/index-mission.jpg');
-	background-size: cover;
-	background-position: center;
-}
-
 .act-rr {
     padding-top: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 5rem;
-	
 }
 
-.act-rr>.row>.col-xl-4 {
-}
-
-.act-rr>.row>.col-xl-4>img {
+.paw-icons-rr {
+	padding-top: 1rem;
 	width: 6rem;
 }
 
-h3 {
+.act-rr p {
+	padding-top: 1rem;
 	font-size: 1.2rem;
-	font-weight: 700;
-	padding: 1rem;
+	font-weight: 600;
+	color: #020A1B;
 }
 
 .email-rr {
@@ -223,10 +173,10 @@ h3 {
 
 .footer-icon-rr {
 	width: 1.6rem;
-	opacity: 50%;
+	opacity: 0.5;
 	margin: 0.2rem;
 }
 
 .footer-icon-rr:hover {
-	opacity: 95%;
+    opacity: 0.95;
 }

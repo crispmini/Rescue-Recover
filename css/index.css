@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.band-hero-rr {
+	height: 30rem;
+	color: #E2F8F0;
+	background: linear-gradient(0.13turn,rgba(2,10,27,1),rgba(2,17,48,0.75),rgba(2,10,27,1)), url('../img/index-hero.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-container-rr {
+	padding-top: 5rem;
+}
+
+.hero-h1-rr {
+    font-size: 3rem;
+    font-weight: 800;
+    top: auto;
+	font-variant-caps: petite-caps; 
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width: 385px){
+	.band-hero-rr {
+	height: 36rem;
+	}
+	
+	.hero-h1-rr {
+    font-size: 3.2rem;
+	}
+}
+
+.mission-rr {
+	padding: 125px;
+	color: #E2F8F0;
+	background-color: #22D57E;
+	align-items: center;
+	justify-content: center;
+}
+
+.mission-p-rr {
+	font-weight: 50;
+}
+
+.band-quote-rr {
+	padding: 50px;
+	color: #E2F8F0;
+	background: linear-gradient(0.13turn,rgba(2,10,27,1),rgba(2,17,48,0.75),rgba(2,10,27,1)), url('../img/index-mission.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.act-rr {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+}
+
+.paw-icons-rr {
+	padding-top: 1rem;
+	width: 6rem;
+}
+
+.act-rr p {
+	padding-top: 1rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #020A1B;
+}
+
+.email-rr {
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+	color: #E2F8F0;
+	background-color: #021130;
+}
+
+.footer-rr {
+	padding: 1rem;
+}
+
+.footer-link-rr {
+	margin: 0.4rem;
+	font-size: 0.8rem;
+}
+
+.footer-icon-rr {
+	width: 1.6rem;
+	opacity: 0.5;
+	margin: 0.2rem;
+}
+
+.footer-icon-rr:hover {
+    opacity: 0.95;
+}
