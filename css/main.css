@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/* Responsive Font Sizing */
 html {
 	font-size: 15px;
 }
@@ -47,6 +49,7 @@ html {
 	}
 }
 
+/* Tag styling */
 body {
     font-family: lato;
     color: #020A1B;
@@ -61,6 +64,7 @@ h3 {
 	padding: 1rem;
 }
 
+/* Navbar & Brand */
 .logo-rr{
 	width: 4rem;
 }
@@ -90,6 +94,7 @@ h3 {
 	text-decoration: none;
 }
 
+/* Button */
 .btn {
 	font-size: 16px;
 	margin: 50px;
@@ -134,25 +139,7 @@ h3 {
   box-shadow: 0 0 0 0.2rem rgba(34, 213, 126, 0.5);
 }
 
-.act-rr {
-    padding-top: 5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 5rem;
-}
-
-.paw-icons-rr {
-	padding-top: 1rem;
-	width: 6rem;
-}
-
-.act-rr p {
-	padding-top: 1rem;
-	font-size: 1.2rem;
-	font-weight: 600;
-	color: #020A1B;
-}
-
+/* Footer Elements */
 .email-rr {
     padding-top: 75px;
     padding-left: 75px;
